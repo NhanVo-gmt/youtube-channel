@@ -1,3 +1,10 @@
-export default function App() {
-  return <h1 className="text-5xl">Youtube</h1>
+import React from 'react'
+import PageHeader from './layouts/PageHeader'
+
+const App = () => {
+  return (
+    <PageHeader />
+  )
 }
+
+export default App
