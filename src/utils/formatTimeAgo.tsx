@@ -1,5 +1,5 @@
 const formatter = new Intl.RelativeTimeFormat(undefined, {
-    numeric: "string"
+    numeric: "always",
 });
 
 const DIVISIONS = [
